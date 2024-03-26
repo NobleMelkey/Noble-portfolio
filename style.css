@@ -522,6 +522,24 @@ form textarea {
         transition: all .45s ease;
 
     }
+    .submit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #45a049; /* Darker Green */
+}
+
     .navlist a{
         display: block;
         margin: 17px;
